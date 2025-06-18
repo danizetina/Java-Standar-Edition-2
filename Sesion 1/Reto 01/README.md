@@ -10,7 +10,9 @@ Además, deberás procesar las órdenes utilizando métodos flexibles con restri
 Imagina que trabajas en una planta industrial que produce:
 
 -🔧 Órdenes de producción en masa (productos estándar).
+
 -🛠️ Órdenes personalizadas (adaptadas a cliente).
+
 -🧪 Prototipos (productos en prueba).
 
 Debes implementar un sistema que:
