@@ -1,3 +1,7 @@
+# 🏭 Sistema de Gestión de Órdenes de Producción con Genéricos en Java
+
+Este proyecto implementa un sistema para gestionar diferentes tipos de órdenes de producción en una planta industrial utilizando genéricos y wildcards de Java.
+
 ### 🎯 Objetivo
 ⚒️ Implementar genéricos y wildcards para gestionar diferentes tipos de órdenes de producción en una planta industrial, clasificando entre producción en masa, personalizada y prototipos.
 Además, deberás procesar las órdenes utilizando métodos flexibles con restricciones de tipo.
@@ -5,14 +9,15 @@ Además, deberás procesar las órdenes utilizando métodos flexibles con restri
 ### 🧠 Contexto del reto
 Imagina que trabajas en una planta industrial que produce:
 
-🔧 Órdenes de producción en masa (productos estándar).
-🛠️ Órdenes personalizadas (adaptadas a cliente).
-🧪 Prototipos (productos en prueba).
+-🔧 Órdenes de producción en masa (productos estándar).
+-🛠️ Órdenes personalizadas (adaptadas a cliente).
+-🧪 Prototipos (productos en prueba).
+
 Debes implementar un sistema que:
 
-Gestione listas de órdenes de diferentes tipos (usando genéricos).
-Muestre información de las órdenes sin importar el tipo.
-Procese las órdenes personalizadas, agregando un costo adicional por ajuste.
+1. Gestione listas de órdenes de diferentes tipos (usando genéricos).
+2. Muestre información de las órdenes sin importar el tipo.
+3. Procese las órdenes personalizadas, agregando un costo adicional por ajuste.
 
 ### 📝 Instrucciones
 Crea una clase abstracta llamada OrdenProduccion con los siguientes atributos:
