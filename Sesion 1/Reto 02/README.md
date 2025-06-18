@@ -1,5 +1,14 @@
 # 📚 Gestión de materiales de curso en una plataforma educativa
 
+Este proyecto implementa un sistema para administrar materiales de cursos en plataformas educativas utilizando **genéricos y wildcards de Java**. El sistema permite:
+
+- Gestionar diferentes tipos de materiales (videos, artículos, ejercicios)
+- Mostrar información detallada de todos los materiales
+- Realizar operaciones específicas por tipo de material
+- Aplicar filtros y transformaciones seguras en tiempo de compilación
+
+El diseño aprovecha los **genéricos** para crear un sistema **type-safe** que previene errores comunes y permite operaciones flexibles sobre colecciones heterogéneas de materiales educativos.
+
 ## 🎯 Objetivo
 
 ⚒️ Utilizar **genéricos**, **wildcards** (`?`, `extends`, `super`) y **restricciones de tipo** para gestionar diferentes **materiales de un curso** (videos, artículos, ejercicios) en una **plataforma educativa**, aplicando **filtros** y **acciones específicas** por tipo de material.
